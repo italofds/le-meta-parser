@@ -1,6 +1,6 @@
-# le-meta-parser 🚀
+# Law Enforcement Meta Parser (le-meta-parser) 🚀
 
-A lightweight and efficient library to parse specific nested HTML structures into clean, hierarchical JSON objects.
+A lightweight and efficient library to parse specific nested HTML structures from Meta response files into clean, hierarchical JSON objects.
 
 Designed to handle complex parent-child relationships within HTML documents, converting them into structured data for APIs, data analysis, or dynamic interfaces.
 
