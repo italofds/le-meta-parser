@@ -1,0 +1,14 @@
+{
+  "name": "le-meta-parser",
+  "version": "1.0.0",
+  "description": "A parser to convert specific structures from Meta's HTML response files into hierarchical JSON objects.",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": ["html", "parser", "json", "meta"],
+  "license": "GPL-3.0",
+  "author": {
+		"name": "Ítalo Santos",
+		"url": "https://github.com/italofds"
+	},
+  "
+}
