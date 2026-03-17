@@ -33,10 +33,15 @@ export function LEMetaParser(root) {
                     children: childrenNodes
                 });
             }
-        }
+            
+        } else if(groupText) {
+            let parentObj = stack[level];			
+			let obj = parentObj[parentObj.length-1];
+			obj.value = groupText;
+		}
     });
 
-    return formatList(result);
+    return formatList(result)[0];
 }
 
 function getTexts(el) {
