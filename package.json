@@ -1,7 +1,12 @@
 {
 	"name": "le-meta-parser",
-	"version": "1.0.0",
 	"description": "A parser to convert specific structures from Meta's HTML response files into hierarchical JSON objects.",
+	"version": "1.0.0",
+	"homepage": "https://github.com/italofds/le-meta-parser#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/italofds/le-meta-parser.git"
+	},
 	"main": "src/index.js",
 	"type": "module",
 	"keywords": ["html", "parser", "json", "meta"],
